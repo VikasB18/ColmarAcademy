@@ -73,7 +73,7 @@ Hero section
     background-color: var(--dark-grey);
     width: 100%;
     height: 3rem;
-    cursor: pointer;
+    cursor: pointerh;
     color: white;
 }
 
@@ -91,6 +91,7 @@ Hero section
 
 .hero-right > h1, h4 {
     padding: 5%;
+    text-align: center;
     color: var(--dark-grey)
 }
 
@@ -172,9 +173,17 @@ News section
     padding: 2% 0;
  }
 
+ 
 .guest {
-    background-color: var(--lighter-grey);
+   
     margin: 0 0 2% 0;
+    
+}
+
+.orientation:hover,
+.campus:hover,
+.guest:hover {
+    background-color: lightgray;
 }
 
 /**** Hide mobile images ****/
@@ -210,13 +219,14 @@ Start learning section
 
 
 /**** Start learning individual card****/
-.sl-grid-wrapper > * {
-    display: flex;
-    flex-direction: column;
+.sl-grid-wrapper > div {
+    background-color: white; 
+    transition: background-color 0.3s; 
+    padding: 5%; 
 }
 
+
 .sl-info {
-    background-color: white;
     padding: 5%;
 }
 
@@ -224,13 +234,20 @@ Start learning section
     padding: 3% 0;
 }
 
+
 .sl-info > p {
     font-size: small;
     color: var(--light-grey);
 }
 
+/* Hide sl-mobile section */
 .sl-mobile {
     display: none;
+}
+
+/* Add hover effect for cards */
+.sl-grid-wrapper > div:hover {
+    background-color: lightgray;
 }
 
 /* 
@@ -290,11 +307,15 @@ Thesis exhibit section
 .fisma, .now-and-then {
     display: flex;
     padding: 5%;
+    transition: background-color 0.3s; /* Adding transition for smooth effect */
 }
 
-.fisma {
-    background-color: var(--lightest-grey);
+.fisma:hover,
+.now-and-then:hover {
+    background-color: lightgray; /* Changing background color on hover */
 }
+
+
 
 .fisma-info, .nt-info {
     display: flex;
@@ -306,6 +327,7 @@ Thesis exhibit section
     padding: 1%;
     margin: 5% 8%;
 }
+
 
 /* 
 Footer 
