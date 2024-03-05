@@ -64,35 +64,38 @@ nav a {
 Hero section 
 */
 .hero-container {
+    
     background-color: var(--lighter-grey);
+
     display: flex;
-    padding: 5% 3%;
+    padding: 6% 6%;
 }
 
 .hero-container button {
     background-color: var(--dark-grey);
     width: 100%;
     height: 3rem;
-    cursor: pointerh;
+    cursor: pointer;
     color: white;
 }
 
 .hero-left img {
-    width: 85%;
+    width: 100%;
 }
-
 .hero-right {
     display: flex;
     justify-content: center;
+   
     flex-direction: column;
     margin: 0 1%;
     padding: 0 2%;
-}
 
+}
 .hero-right > h1, h4 {
     padding: 5%;
-    text-align: center;
+    color: white;
     color: var(--dark-grey)
+
 }
 
 .hero-right a {
