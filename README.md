@@ -7,4 +7,10 @@ This project was completed as part of Codecademy's Build a Website with HTML, CS
 - CSS
 - Bootstrap
 
+## Features
+- **Responsive Design**: The website is optimized for both desktop and mobile devices, ensuring a seamless user experience across different screen sizes.
+- **Wireframes, Videos, and Images**: Implementation of provided wireframes, videos, and images to create a visually appealing landing page.
+- **Bootstrap Utilization**: Bootstrap framework was used for layout and styling, enabling rapid development and consistency in design elements.
+
+
 
